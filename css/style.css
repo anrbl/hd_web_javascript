@@ -205,7 +205,7 @@ body {
 }
 .Header .Gnb > ul {
   line-height: 10rem;
-  transition: 0.1s;
+  transition: 0.5s;
   display: flex;
 }
 .Header .Gnb > ul > li > a {
