@@ -68,16 +68,16 @@ body {
   transition: height 0.4s;
 }
 .TopBanner .itm01 a {
-  background-image: url(../../images/banner01.png);
+  background-image: url(../images/banner01.png);
 }
 .TopBanner .itm02 a {
-  background-image: url(../../images/banner02.jpg);
+  background-image: url(../images/banner02.jpg);
 }
 .TopBanner .itm03 a {
-  background-image: url(../../images/banner03.png);
+  background-image: url(../images/banner03.png);
 }
 .TopBanner .itm04 a {
-  background-image: url(../../images/banner04.jpg);
+  background-image: url(../images/banner04.jpg);
 }
 .TopBanner .itm a {
   display: block;
@@ -205,7 +205,6 @@ body {
 }
 .Header .Gnb > ul {
   line-height: 10rem;
-  transition: 0.5s;
   display: flex;
 }
 .Header .Gnb > ul > li > a {
@@ -223,7 +222,6 @@ body {
   width: 0;
   height: 3px;
   background: #008850;
-  transition: 0.5s;
 }
 .Header .Gnb .snb {
   position: absolute;
@@ -343,7 +341,6 @@ body {
 .Header .Gnb > ul > li:hover .snb {
   visibility: visible;
   opacity: 1;
-  transition: 0.5s;
 }
 .Header.on .header_wrap {
   height: 8rem;
@@ -359,6 +356,7 @@ body {
 }
 .Header.on .Gnb .snb {
   top: 8rem;
+  transition: 0.5s;
 }
 
 .MainVisual {
